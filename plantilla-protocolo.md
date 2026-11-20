@@ -12,10 +12,9 @@
 
 ## 2. Unidad experimental
 
-*¿Qué recibe el tratamiento? ¿Cuántas unidades se incluyen?*
+- **Unidad:** Cada tienda participante, ya que en cada una se probará una ubicación específica para el producto durante el experimento.
 
-- Unidad:
-- Número de unidades y justificación:
+- **Número de unidades y justificación:** Se trabajará con 10 tiendas, divididas en dos grupos de 5: uno experimental y otro de control. Esta cantidad permitirá comparar los resultados de las dos ubicaciones durante cuatro semanas. Sin embargo, como se trata de un número reducido de tiendas, las conclusiones serán limitadas. Para obtener resultados más confiables, sería recomendable realizar el experimento con una mayor cantidad de tiendas.
 
 ## 3. Factor, niveles y tratamiento
 
