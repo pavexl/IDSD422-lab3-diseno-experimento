@@ -32,9 +32,40 @@ El grupo de control estará formado por 5 tiendas que mantendrán el producto en
 
 ## 5. Aleatorización
 
-*¿Cómo se asignan las unidades a los grupos? ¿Por qué es necesaria?*
+- **Método:** Se utilizará una asignación aleatoria simple. Primero se mezclarán las 10 tiendas y luego se asignarán las primeras 5 al grupo experimental y las 5 restantes al grupo de control.
 
-- **Línea de código de la asignación (Python o R):** escribe el comando que asigna al azar tus N unidades a los dos grupos (tratamiento y control) y ejecútalo con semilla. Incluye el resultado de una corrida y explica por qué el sorteo reparte los factores desconocidos entre los grupos.
+- **Justificación:** La aleatorización permite que todas las tiendas tengan la misma oportunidad de formar parte de cualquiera de los dos grupos, evitando que la selección dependa de las preferencias del investigador. Además, permite mantener una distribución equilibrada de 5 tiendas por grupo.
+
+- **Código Python:**
+
+```python
+import pandas as pd
+
+tiendas = pd.DataFrame({
+    "tienda": [
+        "Tienda 1", "Tienda 2", "Tienda 3",
+        "Tienda 4", "Tienda 5", "Tienda 6",
+        "Tienda 7", "Tienda 8", "Tienda 9",
+        "Tienda 10"
+    ]
+})
+
+tiendas_aleatorias = tiendas.sample(
+    frac=1,
+    random_state=42
+).reset_index(drop=True)
+
+tiendas_aleatorias["grupo"] = [
+    "Experimental" if i < 5 else "Control"
+    for i in range(10)
+]
+
+print(tiendas_aleatorias)
+```
+
+- **Resultado de una corrida:** Al utilizar la semilla `42`, las tiendas 9, 2, 6, 1 y 8 quedaron asignadas al grupo experimental, mientras que las tiendas 3, 10, 5, 4 y 7 formaron parte del grupo de control.
+
+- **Reproducibilidad:** El parámetro `random_state=42` permite repetir la asignación y obtener los mismos resultados, siempre que se utilice la misma lista de tiendas.
 
 ## 6. Respuesta y medición
 
