@@ -112,6 +112,27 @@ Por estas razones, los resultados permitirán evaluar el efecto de la ubicación
 
 *Escribe `scripts/comparacion_experimento.py` (o `.R`): debe cargar `plantillas/registro_experimento.csv` y calcular el promedio de `ventas_producto` por `ubicacion`. Incluye la salida y responde:*
 
-- ¿Qué grupo muestra mayor venta promedio en la plantilla?
-- ¿Por qué con 4 filas no se puede concluir nada sobre el efecto de la ubicación?
-- Si el experimento se ejecutara con tu protocolo, ¿qué le faltaría a este análisis para ser justo?
+- **¿Qué grupo muestra mayor venta promedio en la plantilla?**
+
+  El grupo que ubicó el producto en el pasillo principal obtuvo un promedio de 1335 unidades vendidas, mientras que el grupo que mantuvo el producto en su ubicación habitual alcanzó un promedio de 1040 unidades. Por lo tanto, el grupo experimental presentó un promedio de ventas más alto.
+  
+- **¿Por qué con 4 filas no se puede concluir nada sobre el efecto de la ubicación?**
+
+   Porque solo se cuenta con cuatro registros, dos por cada grupo, correspondientes a una semana de ventas. Además, una de las tiendas del grupo experimental tuvo una promoción al mismo tiempo, lo que pudo influir en sus resultados. Por esta razón, no hay suficientes datos para afirmar que el aumento de ventas se deba al cambio de ubicación.
+
+- **Si el experimento se ejecutara con tu protocolo, ¿qué le faltaría a este análisis para ser justo?**
+  
+  Harían falta los registros de las 10 tiendas durante las cuatro semanas del experimento. También habría que tomar en cuenta otros factores que pueden influir en las ventas, como el precio del producto, las promociones, la disponibilidad de inventario y la cantidad de clientes que visitan cada tienda. Así se podría realizar una comparación más completa y justa entre los dos grupos.
+
+### Resultados obtenidos al ejecutar el código
+
+```text
+Promedio de ventas por ubicación:
+ubicacion
+habitual             1040.0
+pasillo_principal    1335.0
+
+Número de registros por ubicación:
+ubicacion
+pasillo_principal    2
+habitual             2
