@@ -18,9 +18,13 @@
 
 ## 3. Factor, niveles y tratamiento
 
-- **Factor** (variable manipulada):
-- **Niveles** (valores del factor):
-- **Tratamiento** (combinación asignada):
+- **Factor (variable manipulada):** La ubicación del producto dentro de la tienda.
+
+- **Niveles (valores del factor):**
+  1. Pasillo principal.
+  2. Ubicación habitual.
+
+- **Tratamiento (combinación asignada):** Las 5 tiendas del grupo experimental colocarán el producto en el pasillo principal durante cuatro semanas. Por otro lado, las 5 tiendas del grupo de control mantendrán el producto en su ubicación habitual durante ese mismo período.
 
 ## 4. Grupo de control
 
