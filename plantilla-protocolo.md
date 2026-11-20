@@ -69,9 +69,17 @@ print(tiendas_aleatorias)
 
 ## 6. Respuesta y medición
 
-- Variable respuesta:
-- Período de medición:
-- Quién registra y cómo (¿ciego?):
+- **Variable respuesta:** Cantidad total de unidades del producto vendidas en cada tienda durante las cuatro semanas que durará el experimento.
+
+- **Unidad de medida:** Número de unidades vendidas por cada tienda durante ese período.
+
+- **Período de medición:** Se tomarán en cuenta cuatro semanas consecutivas, utilizando las mismas fechas para las 10 tiendas participantes
+
+- **Método de registro:** Las ventas se obtendrán de los registros del sistema de punto de venta (POS) de cada tienda. Las ventas se recopilarán semanalmente y al finalizar el experimento se sumarán las unidades vendidas de cada tienda.
+
+- **Responsable del registro:** El personal encargado de ventas o inventario de cada tienda revisará los registros. Después, la información será recopilada y organizada por la persona encargada del análisis.
+
+- **Cegamiento:** No será posible mantener al personal de las tiendas sin conocimiento de la ubicación asignada al producto. Sin embargo, la persona encargada del análisis recibirá los datos identificados con códigos para los grupos A y B, sin conocer inicialmente cuál corresponde al pasillo principal y cuál a la ubicación habitual. De esta manera, se reduce posibles sesgos al momento de analizar los resultados. 
 
 ## 7. Factores a controlar (mínimo 4)
 
