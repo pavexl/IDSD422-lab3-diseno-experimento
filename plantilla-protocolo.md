@@ -1,12 +1,14 @@
 # Plantilla de protocolo — Experimento de ubicación de producto
 
-**Equipo:** ___ · **Integrantes:** ___ · **Fecha:** 27/10/2026
-
-Completa cada sección. Usa commits por sección; la historia del repositorio se revisa.
+**Estudiante:** Pavel Ganchala · **Fecha:** 19/11/2026
 
 ## 1. Pregunta e hipótesis
 
-*Hipótesis que el experimento pueda confirmar o refutar (formúlela como una comparación medible entre los grupos).*
+**Pregunta de investigación:** ¿La ubicación de un producto en el pasillo principal genera un mayor promedio de ventas durante cuatro semanas, en comparación con mantenerlo en su ubicación habitual?
+
+- **Hipótesis nula (H₀):** El promedio de unidades vendidas por tienda durante cuatro semanas es igual entre el grupo que ubica el producto en el pasillo principal y el grupo que lo mantiene en su ubicación habitual.
+
+- **Hipótesis alternativa (H₁):** El promedio de unidades vendidas por tienda durante cuatro semanas es mayor en el grupo que ubica el producto en el pasillo principal que en el grupo que lo mantiene en su ubicación habitual.
 
 ## 2. Unidad experimental
 
