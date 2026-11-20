@@ -28,7 +28,7 @@
 
 ## 4. Grupo de control
 
-*¿Cuál es la referencia sin tratamiento y qué rol cumple?*
+El grupo de control estará formado por 5 tiendas que mantendrán el producto en su ubicación habitual durante las cuatro semanas del experimento. Este grupo permitirá comparar sus ventas con las del grupo experimental, donde el producto se colocará en el pasillo principal. Esto permitirá analizar si el cambio de ubicación influye en el promedio de unidades vendidas.
 
 ## 5. Aleatorización
 
