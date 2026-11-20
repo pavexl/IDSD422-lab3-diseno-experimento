@@ -81,14 +81,16 @@ print(tiendas_aleatorias)
 
 - **Cegamiento:** No será posible mantener al personal de las tiendas sin conocimiento de la ubicación asignada al producto. Sin embargo, la persona encargada del análisis recibirá los datos identificados con códigos para los grupos A y B, sin conocer inicialmente cuál corresponde al pasillo principal y cuál a la ubicación habitual. De esta manera, se reduce posibles sesgos al momento de analizar los resultados. 
 
-## 7. Factores a controlar (mínimo 4)
+## 7. Factores a controlar
 
 | Factor a controlar | Cómo se controla o registra |
 |---|---|
-| 1. | |
-| 2. | |
-| 3. | |
-| 4. | |
+| 1. Precio del producto | Se mantendrá el mismo precio en las 10 tiendas durante las cuatro semanas del experimento. |
+| 2. Promociones y descuentos | Se evitarán promociones o descuentos adicionales para el producto. Si se presenta alguno que no se pueda evitar, se dejará registrado para tenerlo en cuenta al analizar las ventas. |
+| 3. Disponibilidad del inventario | Se intentará mantener suficiente stock en todas las tiendas. También se registrarán los días en los que el producto no esté disponible. |
+| 4. Temporada y fechas de medición | Las 10 tiendas realizarán el experimento durante las mismas cuatro semanas, para evitar que las diferencias entre períodos comerciales afecten los resultados. |
+| 5. Afluencia de clientes | Se registrará la cantidad de clientes que visitan cada tienda, ya que una mayor afluencia puede generar más oportunidades de venta. |
+| 6. Características del producto | Se utilizará el mismo producto, con igual presentación y tamaño en todas las tiendas, para mantener las mismas condiciones durante el experimento. |
 
 ## 8. Limitaciones del diseño
 
