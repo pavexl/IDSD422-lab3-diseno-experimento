@@ -1,6 +1,8 @@
 # Plantilla de protocolo — Experimento de ubicación de producto
 
-**Estudiante:** Pavel Ganchala · **Fecha:** 19/11/2026
+**Estudiante:** Pavel Ganchala
+
+**Fecha:** 19/11/2026
 
 ## 1. Pregunta e hipótesis
 
@@ -21,8 +23,10 @@
 - **Factor (variable manipulada):** La ubicación del producto dentro de la tienda.
 
 - **Niveles (valores del factor):**
-  1. Pasillo principal.
-  2. Ubicación habitual.
+
+  **I.** Pasillo principal.
+
+  **II.** Ubicación habitual.
 
 - **Tratamiento (combinación asignada):** Las 5 tiendas del grupo experimental colocarán el producto en el pasillo principal durante cuatro semanas. Por otro lado, las 5 tiendas del grupo de control mantendrán el producto en su ubicación habitual durante ese mismo período.
 
@@ -79,7 +83,7 @@ print(tiendas_aleatorias)
 
 - **Responsable del registro:** El personal encargado de ventas o inventario de cada tienda revisará los registros. Después, la información será recopilada y organizada por la persona encargada del análisis.
 
-- **Cegamiento:** No será posible mantener al personal de las tiendas sin conocimiento de la ubicación asignada al producto. Sin embargo, la persona encargada del análisis recibirá los datos identificados con códigos para los grupos A y B, sin conocer inicialmente cuál corresponde al pasillo principal y cuál a la ubicación habitual. De esta manera, se reduce posibles sesgos al momento de analizar los resultados. 
+- **Cegamiento:** No será posible mantener al personal de las tiendas sin conocimiento de la ubicación asignada al producto. Sin embargo, la persona encargada del análisis recibirá los datos identificados con códigos para los grupos A y B, sin conocer inicialmente cuál corresponde al pasillo principal y cuál a la ubicación habitual. De esta manera, se reducen los posibles sesgos durante el análisis de los resultados.
 
 ## 7. Factores a controlar
 
@@ -136,3 +140,9 @@ Número de registros por ubicación:
 ubicacion
 pasillo_principal    2
 habitual             2
+```
+### Interpretación de los resultados
+
+Los resultados muestran que las tiendas que colocaron el producto en el pasillo principal tuvieron un promedio de ventas más alto que aquellas que lo mantuvieron en su ubicación habitual. Sin embargo, solo se cuenta con cuatro registros, dos por cada grupo, correspondientes a una semana de ventas, por lo que todavía no es posible determinar si esta diferencia se debe realmente al cambio de ubicación.
+
+Para obtener resultados más confiables, sería necesario incluir más tiendas y ampliar el tiempo de medición. También se deberían controlar factores como las promociones y la disponibilidad del inventario, ya que pueden influir en las ventas.
