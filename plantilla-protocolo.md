@@ -94,7 +94,19 @@ print(tiendas_aleatorias)
 
 ## 8. Limitaciones del diseño
 
-*¿Qué podría invalidar el experimento si no se controla? ¿Qué no se podrá concluir?*
+El experimento presenta algunas limitaciones que deben considerarse al interpretar los resultados:
+
+1. **Número reducido de tiendas:** Se utilizarán únicamente 10 tiendas, por lo que la muestra podría no representar adecuadamente a todas las sucursales de RetailAndina.
+
+2. **Diferencias entre tiendas:** Las tiendas pueden tener distintos niveles de afluencia de clientes, ubicación geográfica y características del público, lo que podría influir en las ventas.
+
+3. **Duración del experimento:** Las cuatro semanas de medición podrían no ser suficientes para identificar cambios en las ventas a largo plazo o variaciones relacionadas con temporadas comerciales.
+
+4. **Factores externos:** Situaciones imprevistas, como promociones inesperadas, falta de inventario o cambios en el comportamiento de los clientes, podrían afectar los resultados.
+
+5. **Limitación del cegamiento:** El personal de las tiendas conocerá la ubicación asignada al producto, por lo que no será posible eliminar completamente los posibles sesgos durante el experimento.
+
+Por estas razones, los resultados permitirán evaluar el efecto de la ubicación del producto en las tiendas participantes durante el período estudiado, pero no se podrá asegurar que el mismo efecto ocurra en todas las tiendas, productos o períodos comerciales.
 
 ## 9. Comparación en código (Python/R)
 
